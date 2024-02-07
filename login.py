@@ -7,9 +7,10 @@ while float(answer)!=1:
 
 if(float(answer)==1):
     print("Login")
+    # PIDES LAS CREDENCIALES 
     username=input("Enter username:")
     password=input("Enter password:")
-
+    # TE VA PEDIR LAS CREDENCIALES HASTA QUE ESTE BIEN
     while username!="Visita" or password!="Visita":
         print("Try again, incorrect username or password ")
         username=input("Enter username:")
